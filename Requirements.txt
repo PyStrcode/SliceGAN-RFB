@@ -1,0 +1,10 @@
+# SliceGAN-RFB requirements
+# Usage: pip install -r requirements.txt
+
+# Base ------------------------------------------------------------------------
+PyTorch>=2.5.0
+OpenCV-Python>=4.6.0
+Cuda>=12.5.51
+Matplotlib>=3.5.1
+Numpy>=1.24.4
+Tifffile>=2023.7.0
