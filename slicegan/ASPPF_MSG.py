@@ -6,7 +6,6 @@ import PIL.Image as Image
 from torchvision import transforms
 import matplotlib.pyplot as plt
 import numpy as np
-from slicegan import Visual_Features
 
 class BasicConv(nn.Module):
 
