@@ -35,7 +35,7 @@ img_channels = 6
 # greyscale. nphase can be, 'tif2D', 'png', 'jpg', tif3D, 'array')
 data_type = 'png'
 # Path to your data. One string for isotrpic, 3 for anisotropic6
-data_path = ['Examples/NMC.tif']
+data_path = ['Raw image/resized_image_RGB.png']
 
 ## Network Architectures
 # Training image size, no. channels and scale factor vs raw data
