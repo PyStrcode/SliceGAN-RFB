@@ -558,7 +558,7 @@ def detect_and_display_gradients_with_feature_check(sub_image: object, threshold
 
 def crop_3d_volume(volume, start_indices, end_indices):
 
-    assert all(s >= 0 and e <= dim for s, e, dim in zip(start_indices, end_indices, volume.shape[2:])),
+    assert all(s >= 0 and e <= dim for s, e, dim in zip(start_indices, end_indices, volume.shape[2:]))
 
     cropped_volume = volume[:, :,
                      start_indices[0]:end_indices[0],
