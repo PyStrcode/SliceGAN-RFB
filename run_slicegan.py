@@ -29,7 +29,7 @@ print(Project_path)
 image_type = 'three-phase'
 # image_type = 'grayscale'
 # img_channels should be number of phases for nphase, 3 for colour, or 1 for grayscale
-6
+
 img_channels = 6
 # define data type (for colour/grayscale images, must be 'colour' / '
 # greyscale. nphase can be, 'tif2D', 'png', 'jpg', tif3D, 'array')
