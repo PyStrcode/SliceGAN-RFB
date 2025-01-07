@@ -1,5 +1,4 @@
 from slicegan import preprocessing, util
-from slicegan import ASPPF
 import torch
 import torch.nn as nn
 import torch.backends.cudnn as cudnn
